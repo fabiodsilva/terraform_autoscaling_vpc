@@ -6,6 +6,7 @@
 ./app/.terraform*
 ./vpc/.terraform*
 
+*/.terragrunt*
 **/*.terragrunt/*
 ./app/.terragrunt*
 ./vpc/.terragrunt*

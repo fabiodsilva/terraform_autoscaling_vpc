@@ -10,9 +10,9 @@ terraform {
     arguments = [ 
       "-var-file=${find_in_parent_folders("region.tfvars")}",
       "-var-file=${find_in_parent_folders("env.tfvars")}",
-      "-var-file=${find_in_parent_folders("platform.tfvars")}",
-      "-var-file=local.tfvars",
-      "-var-file=creation.tfvars", 
+#      "-var-file=${find_in_parent_folders("platform.tfvars")}",
+#      "-var-file=local.tfvars",
+#      "-var-file=creation.tfvars", 
     ]   
   }
 }

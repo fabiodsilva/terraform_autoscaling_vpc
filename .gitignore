@@ -6,10 +6,8 @@
 ./app/.terraform*
 ./vpc/.terraform*
 
-*/.terragrunt*
+**/*.terragrunt-cache
 **/*.terragrunt/*
-./app/.terragrunt*
-./vpc/.terragrunt*
 
 >>>>>>> 3ad4ab1 (second commit)
 

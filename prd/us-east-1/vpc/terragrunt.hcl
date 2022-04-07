@@ -1,7 +1,7 @@
 # Terragrunt will copy the Terraform configurations specified by the source parameter, along with any files in the
 # working directory, into a temporary folder, and execute your Terraform commands in that folder.
 terraform {
-  source = "git::ssh://git@bitbucket.org/naturapay/terraform-module-awsorg-scheduler-resources.git"
+  source = "git::ssh://git@github.com/dont-forget-your-towel/terraform_autoscaling_vpc.git"
   extra_arguments "custom_vars" {
     commands = ["apply", "console", "destroy", "import", "plan", "push", "refresh"]
 

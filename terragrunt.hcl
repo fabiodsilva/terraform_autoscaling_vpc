@@ -35,6 +35,4 @@ inputs = {
 }
 
 
-
-
 #iam_role = "arn:aws:iam::521544279851:role/financial-services-terragrunt-prd"

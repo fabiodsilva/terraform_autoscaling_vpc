@@ -34,5 +34,4 @@ inputs = {
   tfstate_global_bucket_region = "us-east-1"
 }
 
-
 #iam_role = "arn:aws:iam::521544279851:role/financial-services-terragrunt-prd"
